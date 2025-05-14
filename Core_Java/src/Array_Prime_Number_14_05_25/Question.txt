@@ -1,0 +1,60 @@
+
+Que 4 : Find Prime Number From Array
+====================================
+
+-> Write a java program to print all the prime number from array.
+
+-> Example : 
+
+   Input : {1,2,3,4,5,6,7,11}
+
+   Ouput : 2,3,5,7,11
+
+-> Follow the below given requirments To devlop this program .....
+
+
+STEP 1 : Create PrimeNumbersOfArray class.
+
+STEP 2 : In PrimeNumbersOfArray class create one user defined methods like below
+        
+         -> public static boolean isPrime(int n) : this method will check given element is prime or not and will return true/false.
+
+STEP 3 : Create main method in same class and follow below steps to perform the operation.
+
+         1) Read the N size of array from user and based on N size create the new array using new keyword.
+
+         2) Read N elements from user and store into the array using loop.
+
+         3) iterate one by one elements from array using loop and call the isPrime() method to check elements are prime or not. 
+             if elements is prime then only print that elements.
+
+Conditions :
+------------
+         if N<0 then print message "Error...Negative size"
+         if N==0 then print message "Error...Array size is 0"
+
+
+TEST CASE 1 :
+-------------
+sample input :  N = -5
+sample output : Error...Negative size
+
+
+TEST CASE 2 :
+-------------
+sample input :  N = 0
+sample output : Error...Array size is 0
+
+
+TEST CASE 3 :
+-------------
+sample input :  N = 11
+                int arr[N];
+                arr[]= {1,2,3,4,5,6,7,8,9,10,11} 
+
+sample output : 2 3 5 7 11
+
+
+#################################################################
+
+
