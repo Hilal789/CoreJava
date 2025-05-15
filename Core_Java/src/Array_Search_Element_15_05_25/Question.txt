@@ -1,0 +1,12 @@
+Que 1 :
+========
+Search for a given Element in an Array if present then print
+"Element found at index : ", if not present print "Element not found"
+    
+Input as: 1 4 3 5 2 6 5
+Enter searching element: 5
+Output: Element found at index 3
+
+Input as: 1 4 3 5 2 6
+Enter searching element: 7
+Output: Element not found
