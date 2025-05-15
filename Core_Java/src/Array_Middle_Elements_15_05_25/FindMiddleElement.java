@@ -31,3 +31,38 @@ public class FindMiddleElement {
 	}
 
 }
+
+/*
+ * 
+ *import java.util.*;
+
+public class MiddleElementFinder {
+
+    public static void findMiddleElement(int[] arr) {
+        int n = arr.length;
+
+        if (n == 0) {
+            System.out.println("Array is empty.");
+            return;
+        }
+
+        int mid = n / 2;
+
+        if (n % 2 == 1) {
+            // Odd length - one middle element
+            System.out.println("Middle element: " + arr[mid]);
+        } else {
+            // Even length - two middle elements
+            System.out.println("Middle elements: " + arr[mid - 1] + ", " + arr[mid]);
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = {1, 2, 3};          // Output: Middle element: 2
+        int[] arr2 = {10, 20, 30, 40};   // Output: Middle elements: 20, 30
+
+        findMiddleElement(arr1);
+        findMiddleElement(arr2);
+    }
+}
+*/
