@@ -32,8 +32,14 @@ public class Address_Book_application {
 				if (list.isEmpty()) {
 					System.err.println("Contact book is empty");
 				} else if (list.containsKey(removeStudent)) {
+					Long long1 = list.get(removeStudent);
+					if(long1==null) {
+						System.out.println("error");
+					}else
+					{
 					list.remove(removeStudent);
 					System.out.println("Remove Sucessfully");
+					}
 				}
 
 				break;
