@@ -65,6 +65,7 @@ public class internal_working_of_IdentityHashMap {
 		System.out.println(im);
 		System.out.println(System.identityHashCode(p1));
 		System.out.println(System.identityHashCode(p2));
+		System.out.println();
 	}
 
 }
