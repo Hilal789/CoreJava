@@ -40,7 +40,7 @@ public class Q3 {
 		}
 		else
 		{
-			System.out.println(p1+" NO");s
+			System.out.println(p1+" NO");
 		}
 	}
 		
