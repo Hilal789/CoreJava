@@ -29,7 +29,8 @@ public class Q2 {
 			list.add(new Employee(id, name, salary));
 			
 			
-		}
+		}	
+		list.stream().filter(s->s.salary()>30000).forEach(System.out::print);
 
 	}
 
